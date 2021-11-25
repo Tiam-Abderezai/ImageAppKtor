@@ -5,7 +5,7 @@ import retrofit2.http.GET
 
 interface ImageApi {
 
-    @GET("/randomimage")
+    @GET("/randomImage")
     suspend fun getRandomImage(): Image
 
     companion object {
