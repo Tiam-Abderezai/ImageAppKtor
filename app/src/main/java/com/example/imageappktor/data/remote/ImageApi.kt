@@ -9,6 +9,7 @@ interface ImageApi {
     suspend fun getRandomImage(): Image
 
     companion object {
+        // Emulator's external IP address
         const val BASE_URL = "http://10.0.2.2:8080"
     }
 }
