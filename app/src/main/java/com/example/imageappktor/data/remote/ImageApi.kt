@@ -9,6 +9,6 @@ interface ImageApi {
     suspend fun getRandomImage(): Image
 
     companion object {
-        const val BASE_URL = "http://192.168.0.2:8100"
+        const val BASE_URL = "http://10.0.2.2:8080"
     }
 }
